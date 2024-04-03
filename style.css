@@ -1,0 +1,136 @@
+.container {
+    width: 1140px;
+    margin: 0 auto 0 auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+header .container ul {
+    display: flex;
+    gap: 30px;
+}
+
+header .container a {
+    color: #837D88;
+}
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.plan-btn {
+    border: 1.5px solid black;
+    padding: 5px 10px;
+    color: black;
+}
+
+.btn-light {
+    border-color: white;
+    color: white;
+}
+
+.intro {
+    background-color: #2D2641;
+    color: white;
+    padding: 100px 0;
+    margin-top: 30px;
+    height: 400px;
+}
+
+.intro .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.intro h1{
+    font-size: 52px;
+    width: 70%;
+}
+
+.intro p {
+    line-height: 28px;
+    width: 500px;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+
+.intro img {
+    height: 600px;
+}
+
+.implement p {
+    font-size: 15px;
+    line-height: 20px;
+    color:#837D88;
+
+}
+
+.implement h2 {
+    font-size: 52px;
+    margin-bottom: 100px;
+}
+
+.implement {
+    margin-top: 280px;
+}
+
+.implement .bottom {
+    display: flex;
+    gap: 30px;
+}
+
+.work {
+    margin-top: 100px;
+}
+
+.work .container {
+    display: flex;
+    gap: 450px;
+    align-items: center;
+    background-color: #2D2641;
+}
+
+.work .work-btn {
+    border: 1.5px solid white;
+    color: white;
+    padding: 15px 20px;
+}
+
+.work h2 {
+    font-size: 52px;
+    color: white;
+    margin-left: 50px;
+}
+
+footer {
+    margin-top: 150px;
+}
+
+footer .container i {
+    font-size: 25px;
+}
+
+footer .container ul {
+    display: flex;
+    gap: 30px;
+}
+
+footer .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer ul a {
+    color:rgba(131, 125, 136, 1);
+}
